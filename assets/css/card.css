@@ -1,0 +1,40 @@
+.card-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-content {
+    padding: 1.5rem;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-subtitle {
+    color: #666;
+    margin-top: -1rem;
+}
+
+.card-meta {
+    color: #888;
+    font-size: 0.9rem;
+}
