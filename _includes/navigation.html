@@ -1,0 +1,21 @@
+{% comment %}
+  Top navigation bar that appears on every page
+{% endcomment %}
+<header>
+  <a href="/" class="logo-link">
+    <div class="logo">Brian</div>
+  </a>
+  <nav class="nav-bar">
+    <ul>
+      {% for item in site.data.navigation %}
+        <li>
+          <a
+            href="{{ item.link }}"
+            {% if item.link == page.url %}
+            class="current"
+            {% endif %}>{{ item.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
