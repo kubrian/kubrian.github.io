@@ -7,22 +7,5 @@
 </div>
 
 <div class="main-content">
-  <div class="card-layout">
-    <div class="card">
-      <div class="card-content">
-        <h2>
-          <a href="work/work-1.html">Work item 1</a>
-        </h2>
-        <p class="card-subtitle">Subtitle placeholder</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-content">
-        <h2>
-          <a href="work/work-2.html">Work item 2</a>
-        </h2>
-        <p class="card-subtitle">Subtitle placeholder</p>
-      </div>
-    </div>
-  </div>
+  {% include cards.html collection=site.works %}
 </div>

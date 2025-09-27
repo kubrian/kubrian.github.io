@@ -1,8 +1,6 @@
 collections:
-  - works
-  - learn
-  - use
-  - accelerate
+  works:
+    output: true
 
 defaults:
   - scope:
@@ -11,6 +9,12 @@ defaults:
     values:
       layout: "post"
       previous_url: "/posts"
+  - scope:
+      path: ""
+      type: "works"
+    values:
+      layout: "post"
+      previous_url: "/"
   - scope:
       path: ""
     values:
