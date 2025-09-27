@@ -1,0 +1,30 @@
+// _layout.scss
+
+.content-wrapper {
+    flex: 1;
+}
+
+.work-content,
+.resources-content,
+.posts-content,
+.about-content,
+.post-content {
+    padding: $content-padding;
+    max-width: $content-width;
+    margin: 0 auto;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+
+    a {
+        color: $text-color;
+
+        &:hover {
+            color: $hover-color;
+        }
+    }
+}

@@ -6,15 +6,12 @@ The site presents my work, background, resources and some thoughts.
 
 ## Structure
     .
-    |-- _data/      # Jekyll data files
-    |-- _includes/  # Jekyll includes
-    |-- _layouts/   # Jekyll layouts
+    |-- _data/      # Data files
+    |-- _works/     # Work items
+    |-- _posts/     # Blog posts
+    |-- _sass/      # Stylesheet partials
+    |-- assets/
+    | |-- css/      # Stylesheets
     |-- Gemfile     # Jekyll dependencies
     |-- index.html  # Main page
     |-- ...         # Other pages
-    |-- assets/
-    | |-- css/      # Stylesheets
-    | |-- img/      # Images and icons
-    |-- docs/       # PDFs (e.g. CV, publications)
-    |-- thoughts/
-    |-- work/

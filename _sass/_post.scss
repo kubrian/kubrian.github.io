@@ -1,0 +1,21 @@
+// _post.scss
+
+.post-content {
+    .post-subtitle {
+        color: $secondary-text-color;
+        margin-top: -1rem;
+    }
+
+    .post-meta {
+        color: $meta-text-color;
+        font-size: 0.9rem;
+    }
+
+    .post-bottom-link {
+        &:hover {
+            color: $text-color;
+            border-bottom: 2px solid $text-color;
+        }
+
+    }
+}
