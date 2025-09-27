@@ -1,27 +1,6 @@
 ---
-  layout: default
 ---
 <div class="thoughts-content">
-  <h1>Thoughts</h1>
-  <div class="card-layout">
-    <div class="card">
-      <div class="card-content">
-        <h2>
-          <a href="thoughts/thought-1.html">Post 1</a>
-        </h2>
-        <p class="card-subtitle">Subtitle placeholder</p>
-        <p class="card-meta">September 19, 2025 &middot; 5 min read</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-content">
-        <h2>
-          <a href="thoughts/thought-2.html">Post 2</a>
-        </h2>
-        <p class="card-subtitle">Subtitle placeholder</p>
-        <p class="card-meta">September 20, 2025 &middot; 5 min read</p>
-      </div>
-    </div>
-  </div>
+  <h1>Posts</h1>
+  {% include cards.html collection=site.posts %}
 </div>
-<script src="assets/js/main.js"></script>

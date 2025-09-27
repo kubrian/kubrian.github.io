@@ -1,0 +1,22 @@
+<div class="card-layout">
+  {% for card in include.collection %}
+    <div class="card">
+      <div class="card-content">
+
+        <h2>
+          <a href="{{ card.url }}">{{ card.title }}</a>
+        </h2>
+
+        <p class="card-subtitle">{{ card.subtitle }}</p>
+
+        {% if card.date and card.reading_time %}
+          <p class="card-meta">
+            {{ card.date | default: "now" | date: "%b %-d, %Y" }}
+            &middot; {{ card.reading_time }} min read
+          </p>
+        {% endif %}
+
+      </div>
+    </div>
+  {% endfor %}
+</div>

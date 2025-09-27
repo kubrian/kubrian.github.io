@@ -1,0 +1,17 @@
+collections:
+  - works
+  - learn
+  - use
+  - accelerate
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      previous_url: "/posts"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

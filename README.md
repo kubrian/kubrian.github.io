@@ -1,12 +1,17 @@
 # Personal Website
 
-This repository hosts the source for my personal website, served via **GitHub Pages** at `https://kubrian.github.io/`.
+This repository hosts the source for [my personal website](https://kubrian.github.io), built with [Jekyll](https://jekyllrb.com/) and hosted via [GitHub Pages](https://pages.github.com/).
 
-The site presents my background, work, resources and some thoughts.
+The site presents my work, background, resources and some thoughts.
 
 ## Structure
     .
-    |-- index.html  # Home page
+    |-- _data/      # Jekyll data files
+    |-- _includes/  # Jekyll includes
+    |-- _layouts/   # Jekyll layouts
+    |-- Gemfile     # Jekyll dependencies
+    |-- index.html  # Main page
+    |-- ...         # Other pages
     |-- assets/
     | |-- css/      # Stylesheets
     | |-- img/      # Images and icons

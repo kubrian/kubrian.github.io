@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="post-content">
+  <h1>{{ page.title }}</h1>
+  <o class="post-subtitle">{{ page.subtitle }}</p>
+  <p class="post-meta"> {{ page.date | date: "%b %-d, %Y" }}</p>
+  {{ content }}
+  {% if page.previous_url %}
+    <a href="{{ page.previous_url }}">&lt; Back</a>
+  {% endif %}
+</div>
